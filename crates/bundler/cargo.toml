@@ -1,0 +1,16 @@
+[package]
+name = "pysuals-bundler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pysuals = { path = "../computer" }
+
+anyhow = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+regex = { workspace = true }
+glob = "0.3.1"
+
+[lib]
+path = "src/lib.rs"
