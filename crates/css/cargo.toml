@@ -1,0 +1,12 @@
+[package]
+name = "pysuals-css"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+regex = { workspace = true }
+serde = { workspace = true }
+
+[lib]
+path = "src/lib.rs"
